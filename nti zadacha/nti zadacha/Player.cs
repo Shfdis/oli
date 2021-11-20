@@ -4,10 +4,13 @@ namespace nti_zadacha
 {
     public class Player
     {
+        public int heelcounter { get; set; } //супер важная хрень(ответ к задачке)
         public void heal()
         {
             HP = 1000;
+            heelcounter++;
         }
+
         private int fib (int n)
         {
             if (n == 1) return 1;

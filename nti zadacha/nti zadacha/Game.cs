@@ -8,55 +8,59 @@ namespace nti_zadacha
 {
     static class Game
     {   
+        
 
-        public static Monster Gamecycle(Monster monster, int stage)
+        public static Monster spawn( int stage)     //поменьше кода и аргументов
         {
             //set monster with stage
             if ((stage / 27) == 0)
             {
-                monster.Damage = 149;   //Lich
-                monster.HP = 400;
-                return monster;
+                Monster lich = new Monster(149, 400);  //Lich
+                return lich;
             }
             else if ((stage / 18) == 0)
             {
-                monster.Damage = 72;    //Necro
-                monster.HP = 100;
-                return monster;
+                Monster necro = new Monster(72, 100);   //Necro
+                return necro;
             }
             else if ((stage / 11) == 0)
             {
-                monster.Damage = 35;    //Vamp
-                monster.HP = 50;
-                return monster;
+                Monster vamp = new Monster(35, 50);    //Vamp
+                return vamp;
             }
             else if ((stage / 5) == 0)
             {
-                monster.Damage = 17;    //Gnoll
-                monster.HP = 30;
-                return monster;
+                Monster gnoll = new Monster(17, 30);  //Gnoll
+                return gnoll;
             }
             else
             {
-                monster.Damage = 10;    //Rat
-                monster.HP = 10;
-                return monster;
+                Monster rat = new Monster(10, 10); //Rat
+                return rat;
             }
 
 
-
         }
-        public static void Battle(Player player, Monster monster, int stage)
+        public static void Battle(Player player,  int stage)
         {
-            if (player.HP < monster.Damage)
-                player.heal();
+            while (true)
+            {
+                Monster monster = spawn(stage);
+                if (player.HP < monster.Damage)
+                {
+                    player.heal();
+                }
 
-            player.HP = player.HP - monster.Damage;
-            monster.HP = monster.HP - player.Damage;
+                player.HP = player.HP - monster.Damage;
+                monster.HP = monster.HP - player.Damage;
+                if (monster.HP <= 0)
+                {
+                    player.XP += monster.N;
+                    return;                                         //полный цикл битвы в одном методе
+                }
+            }
             //battle with monster
 
         }
-
-
     }
 }
