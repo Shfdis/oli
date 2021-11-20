@@ -11,7 +11,5 @@
             Damage = damage;
             HP = hp;
         }
-
-
     }
 }
