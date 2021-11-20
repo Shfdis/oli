@@ -8,7 +8,13 @@ namespace nti_zadacha
         {
             HP = 1000;
         }
-        public int Xp_to_level { get; set; }
+        private int fib (int n)
+        {
+            if (n == 1) return 1;
+            if (n == 2) return 2;
+            return fib(n - 1) + fib(n - 2);
+        }
+        public int Xp_to_level {get; set;}
         int DamageScale;
         private int _xp;
         public int level { get; set; }
@@ -26,8 +32,8 @@ namespace nti_zadacha
                 {
                     if (_xp > Xp_to_level)
                     {
-                        Xp_to_level++;
                         level++;
+                        Xp_to_level = fib(level);
                         _xp = _xp - Xp_to_level;
                     } 
    

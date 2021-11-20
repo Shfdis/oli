@@ -18,19 +18,19 @@ namespace nti_zadacha
                 monster.HP = 400;
                 return monster;
             }
-            if ((stage / 18) == 0)
+            else if ((stage / 18) == 0)
             {
                 monster.Damage = 72;    //Necro
                 monster.HP = 100;
                 return monster;
             }
-            if ((stage / 11) == 0)
+            else if ((stage / 11) == 0)
             {
                 monster.Damage = 35;    //Vamp
                 monster.HP = 50;
                 return monster;
             }
-            if ((stage / 5) == 0)
+            else if ((stage / 5) == 0)
             {
                 monster.Damage = 17;    //Gnoll
                 monster.HP = 30;
