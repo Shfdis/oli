@@ -14,3 +14,11 @@ C:\Users\huawe\OneDrive\Документы\GitHub\oli\nti zadacha\nti zadacha\ob
 C:\Users\huawe\OneDrive\Документы\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\ref\nti zadacha.dll
 C:\Users\huawe\OneDrive\Документы\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.pdb
 C:\Users\huawe\OneDrive\Документы\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.genruntimeconfig.cache
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.csproj.AssemblyReference.cache
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.AssemblyInfoInputs.cache
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.AssemblyInfo.cs
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.csproj.CoreCompileInputs.cache
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.dll
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\ref\nti zadacha.dll
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.pdb
