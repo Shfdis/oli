@@ -4,8 +4,13 @@ namespace nti_zadacha
 {
     public class Player
     {
-
-        private int _xp=0;
+        public void heal()
+        {
+            HP = 1000;
+        }
+        public int Xp_to_level { get; set; }
+        int DamageScale;
+        private int _xp;
         public int level { get; set; }
         public int HP { get; set; }
         public int Damage { get; set; }
@@ -17,32 +22,26 @@ namespace nti_zadacha
             set
             {
                 _xp = value;
-                if (_xp >= Xp_to_level)
+                while (_xp > Xp_to_level)
                 {
-                    while (_xp >= Xp_to_level)
+                    if (_xp > Xp_to_level)
                     {
-
                         Xp_to_level++;
                         level++;
                         _xp = _xp - Xp_to_level;
                     } 
+   
+                    else _xp = value;
                 }
-                else _xp = value;
             }
         }
 
-        int Xp_to_level = 1;
-        int DamageScale;
-
         public Player(int damageScale)
         {
+            Xp_to_level = 1;
             level = 1;
             heal();
             DamageScale = damageScale;
-        }
-        public void heal()
-        {
-            HP = 1000;
         }
 
     }
