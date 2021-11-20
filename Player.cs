@@ -2,11 +2,22 @@
 
 namespace nti_zadacha
 {
-    class Program
+    public class Player 
     {
-        static void Main(string[] args)
+        public int HP { get; set; }
+        public int Damage { get; set; }
+        public int Level { get; set; }
+
+        int Xp_to_level = 1;
+        int DamageScale;
+
+        public Player(int damageScale)
         {
-            Console.WriteLine("Hello World!");
+            DamageScale = damageScale;
         }
+
+        111
+
+
     }
 }
