@@ -8,13 +8,12 @@ namespace nti_zadacha
 {
     static class Game
     {
-        public static Gamecycle()
+        public static void Gamecycle()
         {
 
         }
         public static void Battle(Player player, Monster monster)
         {
-            if()
             //battle with monster
         }
     }
