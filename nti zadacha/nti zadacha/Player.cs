@@ -24,7 +24,7 @@ namespace nti_zadacha
 
                         Xp_to_level++;
                         level++;
-                        _xp = value - Xp_to_level;
+                        _xp = _xp - Xp_to_level;
                     } 
                 }
                 else _xp = value;
