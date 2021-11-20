@@ -16,8 +16,5 @@ namespace nti_zadacha
             DamageScale = damageScale;
         }
 
-        111
-
-
     }
 }

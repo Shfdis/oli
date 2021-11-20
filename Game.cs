@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace nti_zadacha
 {
-    class Class1
+    static class Game
     {
+
+
+        public static void Battle(Player player, Monster monster)
+        {
+            //battle with monster
+        }
     }
 }
