@@ -8,27 +8,26 @@ namespace nti_zadacha
 {
     static class Game
     {   
-        
 
-        public static Monster spawn( int stage)     //поменьше кода и аргументов
+        public static Monster spawn( int stage)     //fixed wrong conditions
         {
             //set monster with stage
-            if ((stage / 27) == 0)
+            if ((stage % 27) == 0)
             {
                 Monster lich = new Monster(149, 400);  //Lich
                 return lich;
             }
-            else if ((stage / 18) == 0)
+            else if ((stage % 18) == 0)
             {
                 Monster necro = new Monster(72, 100);   //Necro
                 return necro;
             }
-            else if ((stage / 11) == 0)
+            else if ((stage % 11) == 0)
             {
                 Monster vamp = new Monster(35, 50);    //Vamp
                 return vamp;
             }
-            else if ((stage / 5) == 0)
+            else if ((stage % 5) == 0)
             {
                 Monster gnoll = new Monster(17, 30);  //Gnoll
                 return gnoll;
@@ -41,11 +40,12 @@ namespace nti_zadacha
 
 
         }
-        public static void Battle(Player player,  int stage)
+        public static void Battle(Player player, int stage)
         {
+            Monster monster = spawn(stage);
+
             while (true)
             {
-                Monster monster = spawn(stage);
                 if (player.HP < monster.Damage)
                 {
                     player.heal();
@@ -55,12 +55,10 @@ namespace nti_zadacha
                 monster.HP = monster.HP - player.Damage;
                 if (monster.HP <= 0)
                 {
-                    player.XP += monster.N;
+                    player.XP += monster.XP;
                     return;                                         //полный цикл битвы в одном методе
                 }
             }
-            //battle with monster
-
         }
     }
 }

@@ -22,3 +22,11 @@ D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti
 D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.dll
 D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\ref\nti zadacha.dll
 D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.pdb
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\nti zadacha.exe
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\nti zadacha.deps.json
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\nti zadacha.runtimeconfig.json
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\nti zadacha.runtimeconfig.dev.json
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\nti zadacha.dll
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\ref\nti zadacha.dll
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\bin\Debug\net5.0\nti zadacha.pdb
+D:\Users\rogof\Documents\GitHub\oli\nti zadacha\nti zadacha\obj\Debug\net5.0\nti zadacha.genruntimeconfig.cache

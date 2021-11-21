@@ -35,6 +35,7 @@ namespace nti_zadacha
                 {
                     if (_xp > Xp_to_level)
                     {
+                        Damage += DamageScale;
                         level++;
                         Xp_to_level = fib(level);
                         _xp = _xp - Xp_to_level;
@@ -49,6 +50,7 @@ namespace nti_zadacha
         {
             Xp_to_level = 1;
             level = 1;
+            Damage = 10;
             heal();
             DamageScale = damageScale;
         }
