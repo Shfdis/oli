@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huawe\\OneDrive\\Документы\\GitHub\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj": {}
+    "D:\\Aleksei\\Programming\\Unity\\Projects\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huawe\\OneDrive\\Документы\\GitHub\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj": {
+    "D:\\Aleksei\\Programming\\Unity\\Projects\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huawe\\OneDrive\\Документы\\GitHub\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj",
+        "projectUniqueName": "D:\\Aleksei\\Programming\\Unity\\Projects\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj",
         "projectName": "nti zadacha",
-        "projectPath": "C:\\Users\\huawe\\OneDrive\\Документы\\GitHub\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj",
-        "packagesPath": "C:\\Users\\huawe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huawe\\OneDrive\\Документы\\GitHub\\oli\\nti zadacha\\nti zadacha\\obj\\",
+        "projectPath": "D:\\Aleksei\\Programming\\Unity\\Projects\\oli\\nti zadacha\\nti zadacha\\nti zadacha.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "D:\\Aleksei\\Programming\\Unity\\Projects\\oli\\nti zadacha\\nti zadacha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\huawe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

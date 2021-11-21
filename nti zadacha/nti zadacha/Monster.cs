@@ -8,7 +8,7 @@
 
         public Monster(int damage, int hp)
         { 
-            this.XP = 3;                        // n в файлике, 5 поставил для теста
+            this.XP = 6;                        // n в файлике, 5 поставил для теста
             Damage = damage;
             HP = hp;
         }
