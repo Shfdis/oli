@@ -4,10 +4,13 @@ namespace nti_zadacha
 {
     public class Player
     {
+        public int heelcounter { get; set; } //супер важная хрень(ответ к задачке)
         public void heal()
         {
             HP = 1000;
+            heelcounter++;
         }
+
         private int fib (int n)
         {
             if (n == 1) return 1;
@@ -32,6 +35,7 @@ namespace nti_zadacha
                 {
                     if (_xp > Xp_to_level)
                     {
+                        Damage += DamageScale;
                         level++;
                         Xp_to_level = fib(level);
                         _xp = _xp - Xp_to_level;
@@ -46,6 +50,7 @@ namespace nti_zadacha
         {
             Xp_to_level = 1;
             level = 1;
+            Damage = 10;
             heal();
             DamageScale = damageScale;
         }
