@@ -6,17 +6,15 @@ namespace nti_zadacha
     {
         static void Main(string[] args)
         {
-            Player pl = new Player(9);
+            Player pl = new Player(18);
 
-            int i = 1;
-            while (i < 20212022)
+            for (int i=0; i <= 20212022; i++)
             {
                 Game.Battle(pl, i);
-                i++;
             }
 
-            Console.WriteLine($"Potions: {pl.heelcounter} \n" +
-                              $"Money: {pl.heelcounter * 19}");
+            Console.WriteLine(pl.heelcounter);
+            Console.ReadKey();
         }
     }
 }
